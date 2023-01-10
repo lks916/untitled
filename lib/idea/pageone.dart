@@ -254,6 +254,7 @@ class PageOne extends StatelessWidget{
                         child: Row(
                           children: [
                             Image.asset('images/xbjgl_hs.png',fit: BoxFit.fill,),
+
                             const Text('预警值： 23',style: TextStyle(color: Colors.grey,fontSize: 12),),
                             const Spacer(),
                             const Text('2022/12/01  17:20',style: TextStyle(color: Colors.grey,fontSize: 12),),
